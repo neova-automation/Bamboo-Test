@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="neod-prachi" tests="1" failures="0" timestamp="23 Dec 2015 12:40:38 GMT" time="0.031" errors="0">
+  <testcase name="print" time="0.015" classname="SampleAnt"/>
+</testsuite>
