@@ -1,0 +1,63 @@
+<project name="TestAnt" default="run" basedir=".">
+
+	<property environment="env" />
+	<property name="ws.home" value="${basedir}" />
+	<property name="ws.build" value="${ws.home}/build" />
+	<property name="ws.srchome" value="${ws.home}/src/homepage" />
+	<property name="ws.jars" value="${ws.home}/jars" />
+	<property name="ws.testoutput" value="${ws.home}/test-output" />
+
+	<target name="setClassPath" unless="test.classpath">
+		<path id="classpath_jars">
+			<fileset dir="${ws.jars}" includes="**/*.jar" />
+		</path>
+		<pathconvert pathsep=":" property="test.classpath" refid="classpath_jars" />
+	</target>
+
+	<target name="init" depends="setClassPath">
+		<echo> Initialize Ant</echo>
+		<tstamp>
+			<format property="start.time" pattern="MM/dd/yyyy hh:mm aa" />
+		</tstamp>
+		<condition property="ANT" value="${env.ANT_HOME}/bin/ant.bat" else="${env.ANT_HOME}/bin/ant">
+			<os family="windows" />
+		</condition>
+		<taskdef name="testng" classpath="${test.classpath}" classname="org.testng.TestNGAntTask" />
+
+	</target>
+
+	<target name="delete" depends="init">
+		<echo> Deleting directory </echo>
+		<delete dir="${ws.build}">
+		</delete>
+		<delete dir="${ws.testoutput}">
+		</delete>
+		<delete dir="${ws.jars}" excludes="**.jar">
+		</delete>
+	</target>
+
+	<target name="create" depends="delete">
+		<echo> Creating directories </echo>
+		<mkdir dir="${ws.build}" />
+		<mkdir dir="${ws.jars}" />
+	</target>
+
+	<target name="copyClassFiles" depends="create">
+		<echo>Compile java files</echo>
+		<javac includeantruntime="true" debug="true" destdir="${ws.build}" srcdir="${ws.srchome}" classpath="${test.classpath}">
+		</javac>
+		<echo>Copying .class files except .java files</echo>
+		<copy todir="${ws.build}">
+			<fileset dir="${ws.srchome}" excludes="**/*.java" />
+		</copy>
+	</target>
+
+	<target name="run" depends="copyClassFiles">
+		<echo>Taking testcases from testng.xml</echo>
+		<testng classpath="${test.classpath}:${ws.build}" suitename="suite1">
+			<xmlfileset dir="${ws.home}" includes="testng.xml" />
+		</testng>
+	</target>
+
+
+</project>

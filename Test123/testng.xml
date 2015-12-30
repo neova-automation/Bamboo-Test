@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Demo" parallel="none">
-   <test name="TC001">
-    <classes>
-    	<class name="Test1234"/>
-    </classes>
-  </test>
-</suite> <!-- Suite -->
