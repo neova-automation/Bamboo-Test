@@ -2,18 +2,18 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="11050" started-at="2015-12-30T14:15:08Z" finished-at="2015-12-30T14:15:19Z">
+  <suite name="Suite" duration-ms="7111" started-at="2015-12-31T05:25:27Z" finished-at="2015-12-31T05:25:34Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="11050" started-at="2015-12-30T14:15:08Z" finished-at="2015-12-30T14:15:19Z">
+    <test name="Test" duration-ms="7111" started-at="2015-12-31T05:25:27Z" finished-at="2015-12-31T05:25:34Z">
       <class name="homepage.NewTest1">
-        <test-method status="PASS" signature="f()[pri:0, instance:homepage.NewTest1@4fccd51b]" name="f" duration-ms="11038" started-at="2015-12-30T19:45:08Z" finished-at="2015-12-30T19:45:19Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:homepage.NewTest1@4fccd51b]" name="f" duration-ms="7100" started-at="2015-12-31T10:55:27Z" finished-at="2015-12-31T10:55:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
       </class> <!-- homepage.NewTest1 -->
       <class name="homepage.NewTest">
-        <test-method status="PASS" signature="f()[pri:0, instance:homepage.NewTest@1c2c22f3]" name="f" duration-ms="1" started-at="2015-12-30T19:45:19Z" finished-at="2015-12-30T19:45:19Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:homepage.NewTest@1c2c22f3]" name="f" duration-ms="0" started-at="2015-12-31T10:55:34Z" finished-at="2015-12-31T10:55:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
