@@ -4,7 +4,7 @@
 <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="SDX_Release_1"/>
 <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value=""/>
 <listAttribute key="org.testng.eclipse.SUITE_TEST_LIST">
-<listEntry value="C:\Users\Mayur\Desktop\SDX_Release_1\SDX_Release_1\testng.xml"/>
+<listEntry value="E:\BambooIntegration\Bamboo-Test\SDX_Release_1\testng.xml"/>
 </listAttribute>
 <intAttribute key="org.testng.eclipse.TYPE" value="3"/>
 </launchConfiguration>

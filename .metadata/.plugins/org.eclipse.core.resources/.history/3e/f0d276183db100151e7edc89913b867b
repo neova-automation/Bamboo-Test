@@ -5,6 +5,7 @@
     <classes>
      	<class name="homepage.NewTest1"/>
      	<class name="homepage.NewTest"/>     	
+     	<class name="homepage.Test"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

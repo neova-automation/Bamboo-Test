@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="37" started-at="2016-01-02T10:34:28Z" finished-at="2016-01-02T10:34:28Z">
+  <suite name="Suite" duration-ms="7619" started-at="2016-01-02T10:40:35Z" finished-at="2016-01-02T10:40:43Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="37" started-at="2016-01-02T10:34:28Z" finished-at="2016-01-02T10:34:28Z">
+    <test name="Test" duration-ms="7619" started-at="2016-01-02T10:40:35Z" finished-at="2016-01-02T10:40:43Z">
+      <class name="homepage.NewTest1">
+        <test-method status="PASS" signature="f()[pri:0, instance:homepage.NewTest1@2cfb4a64]" name="f" duration-ms="7582" started-at="2016-01-02T16:10:35Z" finished-at="2016-01-02T16:10:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- homepage.NewTest1 -->
       <class name="homepage.NewTest">
-        <test-method status="PASS" signature="f()[pri:0, instance:homepage.NewTest@73035e27]" name="f" duration-ms="26" started-at="2016-01-02T16:04:28Z" finished-at="2016-01-02T16:04:28Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:homepage.NewTest@2fc14f68]" name="f" duration-ms="27" started-at="2016-01-02T16:10:43Z" finished-at="2016-01-02T16:10:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
       </class> <!-- homepage.NewTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
