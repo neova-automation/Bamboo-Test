@@ -16,7 +16,8 @@ public class NewTest2 {
 	  capabilities.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
 	  capabilities.setCapability("ignoreProtectedModeSettings", true);
 	  
-	    
+	  
+	  
 	  
 	  File file = new File("IEDriverServer.exe");
 	  System.setProperty("webdriver.ie.driver", file.getAbsolutePath());

@@ -9,9 +9,6 @@ public class NewTest {
   @Test
   public void f() {
 	  
-	  
-	  System.out.println(System.getenv("PATH"));
-	  
 	  System.out.println(getDefaultBrowser());	  
   }
   

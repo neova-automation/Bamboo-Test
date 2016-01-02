@@ -16,7 +16,8 @@ public class NewTest2 {
 	  capabilities.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
 	  capabilities.setCapability("ignoreProtectedModeSettings", true);
 	  
-	    
+	  
+	  
 	  
 	  File file = new File("IEDriverServer.exe");
 	  System.setProperty("webdriver.ie.driver", file.getAbsolutePath());
@@ -28,6 +29,6 @@ public class NewTest2 {
 	  myTestDriver.get("https://www.sdxcentral.com/"); // Navigate to SDXCentral 
 	  myTestDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS); // wait for Elements to show up
 	  System.out.println("Executed & Verified URL - " +myTestDriver.getTitle());
-	  myTestDriver.close();	  
+	myTestDriver.close();	  
   }
 }
