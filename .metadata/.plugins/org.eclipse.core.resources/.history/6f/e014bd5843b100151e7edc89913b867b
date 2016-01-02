@@ -1,0 +1,26 @@
+package homepage;
+
+import java.io.File;
+
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.annotations.Test;
+
+public class NewTest2 {
+  @Test
+  public void f() {
+	  
+	  DesiredCapabilities capabilities = DesiredCapabilities.internetExplorer();
+	  capabilities.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
+	  File file = new File("IEDriverServer.exe");
+	  System.setProperty("webdriver.ie.driver", file.getAbsolutePath());
+	  WebDriver myTestDriver = new InternetExplorerDriver(capabilities);
+	  myTestDriver.get("https://www.google.com/");
+	  myTestDriver.manage().window().maximize();
+	  myTestDriver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+	  
+	  myTestDriver.findElement(By.xpath("//*[@id='gs_tti0']")).sendKeys(Keys.NUMPAD1, Keys.ADD, Keys.NUMPAD9, Keys.EQUALS,Keys.ENTER);
+	  Thread.sleep(10000L);
+	  myTestDriver.quit();
+  }
+}

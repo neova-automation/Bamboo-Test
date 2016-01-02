@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="7619" started-at="2016-01-02T10:40:35Z" finished-at="2016-01-02T10:40:43Z">
+  <suite name="Suite" duration-ms="24651" started-at="2016-01-02T11:25:48Z" finished-at="2016-01-02T11:26:13Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="7619" started-at="2016-01-02T10:40:35Z" finished-at="2016-01-02T10:40:43Z">
+    <test name="Test" duration-ms="24651" started-at="2016-01-02T11:25:48Z" finished-at="2016-01-02T11:26:13Z">
       <class name="homepage.NewTest1">
-        <test-method status="PASS" signature="f()[pri:0, instance:homepage.NewTest1@2cfb4a64]" name="f" duration-ms="7582" started-at="2016-01-02T16:10:35Z" finished-at="2016-01-02T16:10:43Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:homepage.NewTest1@61443d8f]" name="f" duration-ms="7925" started-at="2016-01-02T16:56:05Z" finished-at="2016-01-02T16:56:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
       </class> <!-- homepage.NewTest1 -->
+      <class name="homepage.NewTest2">
+        <test-method status="PASS" signature="f()[pri:0, instance:homepage.NewTest2@2fc14f68]" name="f" duration-ms="16695" started-at="2016-01-02T16:55:48Z" finished-at="2016-01-02T16:56:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- homepage.NewTest2 -->
       <class name="homepage.NewTest">
-        <test-method status="PASS" signature="f()[pri:0, instance:homepage.NewTest@2fc14f68]" name="f" duration-ms="27" started-at="2016-01-02T16:10:43Z" finished-at="2016-01-02T16:10:43Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:homepage.NewTest@445b84c0]" name="f" duration-ms="21" started-at="2016-01-02T16:56:13Z" finished-at="2016-01-02T16:56:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
