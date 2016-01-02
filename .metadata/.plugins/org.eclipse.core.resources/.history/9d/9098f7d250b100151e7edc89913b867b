@@ -19,9 +19,6 @@ public class NewTest2 {
 	    
 	  
 	  File file = new File("IEDriverServer.exe");
-	  
-	  System.out.println(file.getPath());
-	  
 	  System.setProperty("webdriver.ie.driver", file.getAbsolutePath());
 	  WebDriver myTestDriver = new InternetExplorerDriver(capabilities);
 	  myTestDriver.get("https://www.google.com/");
