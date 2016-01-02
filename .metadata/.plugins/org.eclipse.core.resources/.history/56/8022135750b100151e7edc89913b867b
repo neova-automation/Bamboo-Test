@@ -13,7 +13,7 @@ public class NewTest2 {
   public void f() {
 	  
 	  DesiredCapabilities capabilities = DesiredCapabilities.internetExplorer();
-	  //capabilities.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
+	  capabilities.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
 	  capabilities.setCapability("ignoreProtectedModeSettings", true);
 	  
 	    
