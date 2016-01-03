@@ -33,7 +33,7 @@ public class NewTest2 {
 	  
 	  System.out.println("JavaScript - " +DesiredCapabilities.internetExplorer().isJavascriptEnabled());
 	  
-	  //capabilities.setCapability("unexpectedAlertBehaviour","accept");
+	  capabilities.setCapability("unexpectedAlertBehaviour","accept");
 	  
 	  
 	  File file = new File("IEDriverServer.exe");
