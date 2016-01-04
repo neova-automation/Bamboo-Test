@@ -14,7 +14,7 @@ public class NewTest1 {
 	  	WebDriver driver = new FirefoxDriver();
 	  	System.out.println("Driver Initiazed");
 		//driver.manage().window().maximize(); 
-		driver.get("https://www.sdxcentral.com/"); // Navigate to SDXCentral 
+		driver.get("https://www.sdxcentrasddsadsasdaal.com/"); // Navigate to SDXCentral 
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS); // wait for Elements to show up
 		System.out.println("Executed & Verified URL - " +driver.getTitle());
 		driver.close();	  	
