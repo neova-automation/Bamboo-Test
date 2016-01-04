@@ -7,14 +7,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class NewTest2 {
   @Test
   public void f() {
-	  
-	  /*
 	  
 	  DesiredCapabilities capabilities = DesiredCapabilities.internetExplorer();
 	  //capabilities.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
@@ -47,17 +44,6 @@ public class NewTest2 {
 	  myTestDriver.get("https://www.sdxcentral.com/"); // Navigate to SDXCentral 
 	  myTestDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS); // wait for Elements to show up
 	  System.out.println("Executed & Verified URL - " +myTestDriver.getTitle());
-	  myTestDriver.close();	  */
-	  
-	  
-	  
+	  myTestDriver.close();	  
   }
-  
-  @Test
-  public void f1() {
-	  
-	  Assert.fail();	  	
-	  
-  }
-  
 }

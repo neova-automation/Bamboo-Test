@@ -30,7 +30,7 @@ public class NewTest1 {
   
   
   @Test
-  public void f2() {	  
+  public void f1() {	  
 	  
 	  	  	
   }

@@ -29,11 +29,5 @@ public class NewTest1 {
   }
   
   
-  @Test
-  public void f2() {	  
-	  
-	  	  	
-  }
-  
   
 }
