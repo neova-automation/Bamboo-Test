@@ -11,7 +11,10 @@ public class NewTest1 {
   @Test
   public void f() {	  
 	  
-	  	WebDriver driver = new FirefoxDriver();
+	  	System.out.println("In Process IE Script");	  	
+	  	File file = new File("IEDriverServer.exe");
+	  	System.setProperty("webdriver.ie.driver", file.getAbsolutePath());
+	  	WebDriver driver = new InternetExplorerDriver();
 	  	System.out.println("Driver Initiazed");
 		//driver.manage().window().maximize(); 
 		driver.get("https://www.sdxcentral.com/"); // Navigate to SDXCentral 

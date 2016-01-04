@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15540" started-at="2016-01-03T07:10:38Z" finished-at="2016-01-03T07:10:54Z">
+  <suite name="Suite" duration-ms="27902" started-at="2016-01-04T09:19:54Z" finished-at="2016-01-04T09:20:22Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15540" started-at="2016-01-03T07:10:38Z" finished-at="2016-01-03T07:10:54Z">
-      <class name="homepage.NewTest2">
-        <test-method status="PASS" signature="f()[pri:0, instance:homepage.NewTest2@5474c6c]" name="f" duration-ms="15540" started-at="2016-01-03T12:40:38Z" finished-at="2016-01-03T12:40:54Z">
+    <test name="Test" duration-ms="27902" started-at="2016-01-04T09:19:54Z" finished-at="2016-01-04T09:20:22Z">
+      <class name="homepage.NewTest1">
+        <test-method status="PASS" signature="f()[pri:0, instance:homepage.NewTest1@71f2a7d5]" name="f" duration-ms="27902" started-at="2016-01-04T14:49:54Z" finished-at="2016-01-04T14:50:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-      </class> <!-- homepage.NewTest2 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- homepage.NewTest1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

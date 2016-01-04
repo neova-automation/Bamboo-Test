@@ -23,7 +23,10 @@ public class NewTest2 {
 	  capabilities.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
 	  capabilities.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
 	  
-	    
+	  
+	  
+	  
+	  
 	  System.out.println("JavaScript - " +DesiredCapabilities.internetExplorer().isJavascriptEnabled());
 	  
 	  //capabilities.setCapability("unexpectedAlertBehaviour","accept");
