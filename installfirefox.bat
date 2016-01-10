@@ -1,2 +1,2 @@
-"\temp1\Firefox Setup 43.0.4.exe" -ms
+"FirefoxSetup.exe" -ms
 echo "Installed"
