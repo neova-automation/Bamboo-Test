@@ -9,4 +9,5 @@
 <fullyQualifiedTypeName name="org.openqa.selenium.remote.DesiredCapabilities"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.ie.InternetExplorerDriver"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+<fullyQualifiedTypeName name="org.testng.Assert"/>
 </qualifiedTypeNameHistroy>
