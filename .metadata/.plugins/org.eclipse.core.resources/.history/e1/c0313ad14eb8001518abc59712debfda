@@ -30,7 +30,7 @@ public class NewTest1 {
 	  driver.close();	  
 	  
 	  }catch(Exception e){
-		  System.out.println(e.getMessage());
+		  System.out.println("Exception");
 	  }
 	  
 	  
