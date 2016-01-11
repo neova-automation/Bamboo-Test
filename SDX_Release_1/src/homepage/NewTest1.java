@@ -18,6 +18,7 @@ public class NewTest1 {
 	  
 	  try{
 	  
+		  System.setProperty("webdriver.firefox.bin", "/home/bamboo/bamboo-agent-home/xml-data/build-dir/SDXQA-FIR-TEST/firefox/firefox-bin");
 	  FirefoxBinary binary = new FirefoxBinary(new File("/home/bamboo/bamboo-agent-home/xml-data/build-dir/SDXQA-FIR-TEST/firefox/firefox-bin"));
 	  FirefoxProfile profile = new FirefoxProfile();
 	  WebDriver driver = new FirefoxDriver(binary, profile);
