@@ -16,12 +16,7 @@ public class NewTest1 {
   @Test
   public void f() {	  
 	  
-	  
-	  
-	  FirefoxBinary binary = new FirefoxBinary(new File("/home/bamboo/bamboo-agent-home/xml-data/build-dir/SDXQA-FIR-TEST/firefox-bin"));
-	  FirefoxProfile profile = new FirefoxProfile();
-	  WebDriver driver = new FirefoxDriver(binary, profile);
-	  
+	  WebDriver driver = new FirefoxDriver();
 	  System.out.println("Driver Initiazed");
 	  //driver.manage().window().maximize(); 
 	  driver.get("https://www.sdxcentral.com/"); // Navigate to SDXCentral 
