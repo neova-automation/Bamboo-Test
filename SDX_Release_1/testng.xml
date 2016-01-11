@@ -4,8 +4,6 @@
   <test name="Test">
     <classes>
      	<class name="homepage.NewTest1"/>
-     	<class name="homepage.NewTest2"/>
-     	     	
-    </classes>
+     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

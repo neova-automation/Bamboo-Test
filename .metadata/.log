@@ -6660,3 +6660,127 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-01-10 16:26:08.483 -----------------------------------------------
+eclipse.buildId=4.5.0.I20140806-2000
+java.version=1.8.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-01-10 16:26:14.733
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-01-10 16:26:14.734
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Mayur'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2016-01-10 16:40:25.942
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: E:\BambooIntegration\Bamboo-Test\SDX_Release_1\bin D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\testng.jar D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\jcommander.jar D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\bsh-2.0b4.jar D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\snakeyaml.jar E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-java-2.48.2-srcs.jar E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-java-2.48.2.jar E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-server-standalone-2.48.2.jar E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\testng.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51275 -d E:\BambooIntegration\Bamboo-Test\SDX_Release_1\test-output C:\Users\Mayur\AppData\Local\Temp\testng-eclipse--623701159\testng-customsuite.xml
+java -ea -classpath E:\BambooIntegration\Bamboo-Test\SDX_Release_1\bin:D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\testng.jar:D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\jcommander.jar:D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\bsh-2.0b4.jar:D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\snakeyaml.jar:E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-java-2.48.2-srcs.jar:E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-java-2.48.2.jar:E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-server-standalone-2.48.2.jar:E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\testng.jar org.testng.remote.RemoteTestNG -serport 51275 -d E:\BambooIntegration\Bamboo-Test\SDX_Release_1\test-output C:\Users\Mayur\AppData\Local\Temp\testng-eclipse--623701159\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2016-01-10 16:41:16.782
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: E:\BambooIntegration\Bamboo-Test\SDX_Release_1\bin D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\testng.jar D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\jcommander.jar D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\bsh-2.0b4.jar D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\snakeyaml.jar E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-java-2.48.2-srcs.jar E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-java-2.48.2.jar E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-server-standalone-2.48.2.jar E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\testng.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51277 -d E:\BambooIntegration\Bamboo-Test\SDX_Release_1\test-output C:\Users\Mayur\AppData\Local\Temp\testng-eclipse-1931309018\testng-customsuite.xml
+java -ea -classpath E:\BambooIntegration\Bamboo-Test\SDX_Release_1\bin:D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\testng.jar:D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\jcommander.jar:D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\bsh-2.0b4.jar:D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\snakeyaml.jar:E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-java-2.48.2-srcs.jar:E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-java-2.48.2.jar:E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-server-standalone-2.48.2.jar:E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\testng.jar org.testng.remote.RemoteTestNG -serport 51277 -d E:\BambooIntegration\Bamboo-Test\SDX_Release_1\test-output C:\Users\Mayur\AppData\Local\Temp\testng-eclipse-1931309018\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2016-01-10 16:44:22.970
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: E:\BambooIntegration\Bamboo-Test\SDX_Release_1\bin D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\testng.jar D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\jcommander.jar D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\bsh-2.0b4.jar D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\snakeyaml.jar E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-java-2.48.2-srcs.jar E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-java-2.48.2.jar E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-server-standalone-2.48.2.jar E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\testng.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51310 -d E:\BambooIntegration\Bamboo-Test\SDX_Release_1\test-output C:\Users\Mayur\AppData\Local\Temp\testng-eclipse--1635653707\testng-customsuite.xml
+java -ea -classpath E:\BambooIntegration\Bamboo-Test\SDX_Release_1\bin:D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\testng.jar:D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\jcommander.jar:D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\bsh-2.0b4.jar:D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\snakeyaml.jar:E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-java-2.48.2-srcs.jar:E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-java-2.48.2.jar:E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-server-standalone-2.48.2.jar:E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\testng.jar org.testng.remote.RemoteTestNG -serport 51310 -d E:\BambooIntegration\Bamboo-Test\SDX_Release_1\test-output C:\Users\Mayur\AppData\Local\Temp\testng-eclipse--1635653707\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2016-01-10 16:44:53.016
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: E:\BambooIntegration\Bamboo-Test\SDX_Release_1\bin D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\testng.jar D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\jcommander.jar D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\bsh-2.0b4.jar D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\snakeyaml.jar E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-java-2.48.2-srcs.jar E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-java-2.48.2.jar E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-server-standalone-2.48.2.jar E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\testng.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51312 -d E:\BambooIntegration\Bamboo-Test\SDX_Release_1\test-output C:\Users\Mayur\AppData\Local\Temp\testng-eclipse--1160073418\testng-customsuite.xml
+java -ea -classpath E:\BambooIntegration\Bamboo-Test\SDX_Release_1\bin:D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\testng.jar:D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\jcommander.jar:D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\bsh-2.0b4.jar:D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\snakeyaml.jar:E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-java-2.48.2-srcs.jar:E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-java-2.48.2.jar:E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-server-standalone-2.48.2.jar:E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\testng.jar org.testng.remote.RemoteTestNG -serport 51312 -d E:\BambooIntegration\Bamboo-Test\SDX_Release_1\test-output C:\Users\Mayur\AppData\Local\Temp\testng-eclipse--1160073418\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2016-01-10 16:45:48.206
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: E:\BambooIntegration\Bamboo-Test\SDX_Release_1\bin D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\testng.jar D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\jcommander.jar D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\bsh-2.0b4.jar D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\snakeyaml.jar E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-java-2.48.2-srcs.jar E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-java-2.48.2.jar E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-server-standalone-2.48.2.jar E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\testng.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51376 -d E:\BambooIntegration\Bamboo-Test\SDX_Release_1\test-output C:\Users\Mayur\AppData\Local\Temp\testng-eclipse-580438661\testng-customsuite.xml
+java -ea -classpath E:\BambooIntegration\Bamboo-Test\SDX_Release_1\bin:D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\testng.jar:D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\jcommander.jar:D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\bsh-2.0b4.jar:D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\snakeyaml.jar:E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-java-2.48.2-srcs.jar:E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-java-2.48.2.jar:E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-server-standalone-2.48.2.jar:E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\testng.jar org.testng.remote.RemoteTestNG -serport 51376 -d E:\BambooIntegration\Bamboo-Test\SDX_Release_1\test-output C:\Users\Mayur\AppData\Local\Temp\testng-eclipse-580438661\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2016-01-10 16:48:13.007
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: E:\BambooIntegration\Bamboo-Test\SDX_Release_1\bin D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\testng.jar D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\jcommander.jar D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\bsh-2.0b4.jar D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\snakeyaml.jar E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-java-2.48.2-srcs.jar E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-java-2.48.2.jar E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-server-standalone-2.48.2.jar E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\testng.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51381 -d E:\BambooIntegration\Bamboo-Test\SDX_Release_1\test-output C:\Users\Mayur\AppData\Local\Temp\testng-eclipse-813782552\testng-customsuite.xml
+java -ea -classpath E:\BambooIntegration\Bamboo-Test\SDX_Release_1\bin:D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\testng.jar:D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\jcommander.jar:D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\bsh-2.0b4.jar:D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\snakeyaml.jar:E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-java-2.48.2-srcs.jar:E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-java-2.48.2.jar:E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-server-standalone-2.48.2.jar:E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\testng.jar org.testng.remote.RemoteTestNG -serport 51381 -d E:\BambooIntegration\Bamboo-Test\SDX_Release_1\test-output C:\Users\Mayur\AppData\Local\Temp\testng-eclipse-813782552\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2016-01-10 16:51:24.769
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: E:\BambooIntegration\Bamboo-Test\SDX_Release_1\bin D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\testng.jar D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\jcommander.jar D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\bsh-2.0b4.jar D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\snakeyaml.jar E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-java-2.48.2-srcs.jar E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-java-2.48.2.jar E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-server-standalone-2.48.2.jar E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\testng.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51408 -d E:\BambooIntegration\Bamboo-Test\SDX_Release_1\test-output C:\Users\Mayur\AppData\Local\Temp\testng-eclipse-925972700\testng-customsuite.xml
+java -ea -classpath E:\BambooIntegration\Bamboo-Test\SDX_Release_1\bin:D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\testng.jar:D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\jcommander.jar:D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\bsh-2.0b4.jar:D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\snakeyaml.jar:E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-java-2.48.2-srcs.jar:E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-java-2.48.2.jar:E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-server-standalone-2.48.2.jar:E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\testng.jar org.testng.remote.RemoteTestNG -serport 51408 -d E:\BambooIntegration\Bamboo-Test\SDX_Release_1\test-output C:\Users\Mayur\AppData\Local\Temp\testng-eclipse-925972700\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2016-01-10 16:52:20.064
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: E:\BambooIntegration\Bamboo-Test\SDX_Release_1\bin D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\testng.jar D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\jcommander.jar D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\bsh-2.0b4.jar D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\snakeyaml.jar E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-java-2.48.2-srcs.jar E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-java-2.48.2.jar E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-server-standalone-2.48.2.jar E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\testng.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51480 -d E:\BambooIntegration\Bamboo-Test\SDX_Release_1\test-output C:\Users\Mayur\AppData\Local\Temp\testng-eclipse--1559612463\testng-customsuite.xml
+java -ea -classpath E:\BambooIntegration\Bamboo-Test\SDX_Release_1\bin:D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\testng.jar:D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\jcommander.jar:D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\bsh-2.0b4.jar:D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\snakeyaml.jar:E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-java-2.48.2-srcs.jar:E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-java-2.48.2.jar:E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-server-standalone-2.48.2.jar:E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\testng.jar org.testng.remote.RemoteTestNG -serport 51480 -d E:\BambooIntegration\Bamboo-Test\SDX_Release_1\test-output C:\Users\Mayur\AppData\Local\Temp\testng-eclipse--1559612463\testng-customsuite.xml
+!SESSION 2016-01-11 14:00:46.197 -----------------------------------------------
+eclipse.buildId=4.5.0.I20140806-2000
+java.version=1.8.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-01-11 14:00:52.556
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-01-11 14:00:52.581
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Mayur'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2016-01-11 14:02:56.424
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: E:\BambooIntegration\Bamboo-Test\SDX_Release_1\bin D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\testng.jar D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\jcommander.jar D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\bsh-2.0b4.jar D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\snakeyaml.jar E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-java-2.48.2-srcs.jar E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-java-2.48.2.jar E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-server-standalone-2.48.2.jar E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\testng.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50388 -d E:\BambooIntegration\Bamboo-Test\SDX_Release_1\test-output C:\Users\Mayur\AppData\Local\Temp\testng-eclipse--2069210614\testng-customsuite.xml
+java -ea -classpath E:\BambooIntegration\Bamboo-Test\SDX_Release_1\bin:D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\testng.jar:D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\jcommander.jar:D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\bsh-2.0b4.jar:D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\snakeyaml.jar:E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-java-2.48.2-srcs.jar:E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-java-2.48.2.jar:E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-server-standalone-2.48.2.jar:E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\testng.jar org.testng.remote.RemoteTestNG -serport 50388 -d E:\BambooIntegration\Bamboo-Test\SDX_Release_1\test-output C:\Users\Mayur\AppData\Local\Temp\testng-eclipse--2069210614\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2016-01-11 14:04:37.607
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: E:\BambooIntegration\Bamboo-Test\SDX_Release_1\bin D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\testng.jar D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\jcommander.jar D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\bsh-2.0b4.jar D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\snakeyaml.jar E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-java-2.48.2-srcs.jar E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-java-2.48.2.jar E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-server-standalone-2.48.2.jar E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\testng.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50467 -d E:\BambooIntegration\Bamboo-Test\SDX_Release_1\test-output C:\Users\Mayur\AppData\Local\Temp\testng-eclipse--1582164479\testng-customsuite.xml
+java -ea -classpath E:\BambooIntegration\Bamboo-Test\SDX_Release_1\bin:D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\testng.jar:D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\jcommander.jar:D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\bsh-2.0b4.jar:D:\eclipse\eclipse\plugins\org.testng.eclipse_6.9.8.201510130443\lib\snakeyaml.jar:E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-java-2.48.2-srcs.jar:E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-java-2.48.2.jar:E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\selenium-server-standalone-2.48.2.jar:E:\BambooIntegration\Bamboo-Test\SDX_Release_1\jars\testng.jar org.testng.remote.RemoteTestNG -serport 50467 -d E:\BambooIntegration\Bamboo-Test\SDX_Release_1\test-output C:\Users\Mayur\AppData\Local\Temp\testng-eclipse--1582164479\testng-customsuite.xml
