@@ -36,7 +36,7 @@ public class NewTest1 {
 			
 			String sMenuName = "RESOURCES";
 			String sSubMenuName = "Cloud";
-			WebElement objMenu = driver.findElement(By.xpath("//*[@id='menu-main-123']/li[a//text()='" +sMenuName +"']"));
+			WebElement objMenu = driver.findElement(By.xpath("//*[@id='menu-main-1']/li[a//text()='" +sMenuName +"']"));
 			WebElement objSubMenu = driver.findElement(By.xpath("//*[@id='menu-main-1']/li[a//text()='" +sMenuName +"']" +"//li[a//text()='" +sSubMenuName +"']"));
 			Actions build = new Actions(driver);
 			build.moveToElement(objMenu).build().perform();
