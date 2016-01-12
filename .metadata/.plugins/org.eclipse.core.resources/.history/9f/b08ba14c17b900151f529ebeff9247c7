@@ -45,6 +45,22 @@ public class NewTest1 {
 				
 			System.out.println("Current URL : "+driver.getCurrentUrl());
 			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
 			driver.close();
 
 		} catch (Exception e) {

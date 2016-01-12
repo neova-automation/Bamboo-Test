@@ -38,12 +38,39 @@ public class NewTest1 {
 			String sSubMenuName = "Cloud";
 			WebElement objMenu = driver.findElement(By.xpath("//*[@id='menu-main-1']/li[a//text()='" +sMenuName +"']"));
 			WebElement objSubMenu = driver.findElement(By.xpath("//*[@id='menu-main-1']/li[a//text()='" +sMenuName +"']" +"//li[a//text()='" +sSubMenuName +"']"));
+		
+			
 			Actions build = new Actions(driver);
+			objMenu = driver.findElement(By.xpath("//*[@id='menu-main-1']/li[a//text()='" +sMenuName +"']"));
+			objSubMenu = driver.findElement(By.xpath("//*[@id='menu-main-1']/li[a//text()='" +sMenuName +"']" +"//li[a//text()='" +sSubMenuName +"']"));
 			build.moveToElement(objMenu).build().perform();
 			//build.moveToElement(objSubMenu).build().perform();
 			build.moveToElement(objSubMenu).click(objSubMenu).build().perform();
 				
 			System.out.println("Current URL : "+driver.getCurrentUrl());
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
 			
 			driver.close();
 
